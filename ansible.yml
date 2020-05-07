@@ -1,6 +1,8 @@
----
-- name: Hello World!
+--- 
+- 
   hosts: all
-  tasks:
-    - name: install apache2
-      apt: name=apache2 update_cache=yes state=latest
+  name: Apache
+  tasks: 
+    - 
+      apt: "name=apache2 update_cache=yes state=latest"
+      name: "install apache2"
